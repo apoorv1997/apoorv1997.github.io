@@ -4,6 +4,12 @@
 @import url("fonts.css");
 
 
+.btn {
+	border:1px solid #000000;
+	background-color: #ffffff;
+	width: 120px;
+}
+
 body {
 	margin: 0;
 }
