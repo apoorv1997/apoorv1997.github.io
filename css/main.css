@@ -94,18 +94,23 @@ body {
 }
 
 a, a:visited {
+	font-family: "poppins-semibold", sans-serif;
 	color: #000000;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
+	text-decoration: none;
 }
 a:hover, a:focus, a:active {
-	color: #FF0077;
+	color: red;
 	outline: 0;
 }
-
+button {
+	cursor: pointer;
+	padding:10px;
+}
 h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
 	font-family: "poppins-semibold", sans-serif;
 	color: #313131;
